@@ -10,7 +10,14 @@ function App() {
 				<Route path="/" element={<Layout />}>
 					<Route
 						path="/button"
-						element={<Button className="text-orange-500">My Button</Button>}
+						element={
+							<Button
+								className="text-orange-500"
+								onClick={e => console.log(e.target)}
+							>
+								My Button
+							</Button>
+						}
 					/>
 				</Route>
 			</Routes>

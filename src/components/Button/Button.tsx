@@ -4,19 +4,23 @@ interface Props extends React.HTMLAttributes<HTMLButtonElement> {
 	disabled?: boolean;
 }
 
-export const Button = ({
+const BaseButton = ({
 	children,
 	className,
+	onClick,
 	disabled = false,
 	...props
 }: Props): JSX.Element => {
 	return (
 		<button
-			disabled={disabled}
 			className={"text-4xl" + " " + className}
+			onClick={onClick}
+			disabled={disabled}
 			{...props}
 		>
 			{children}
 		</button>
 	);
 };
+
+export const Button = BaseButton;

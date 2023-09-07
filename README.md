@@ -1,4 +1,4 @@
-## Reusable and Compound Components with React
+## Reusable Components with React
 
 ### Tutorials:
 
