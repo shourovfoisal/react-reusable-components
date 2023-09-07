@@ -1,4 +1,13 @@
-# React + TypeScript + Vite
+## Reusable and Compound Components with React
+
+### Tutorials:
+
+1. [Create Highly Reusable React Components in Minutes with TypeScript](https://www.youtube.com/watch?v=BKFPfzWM3CQ)
+
+<hr />
+<br />
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

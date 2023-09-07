@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Layout, Navbar } from "./components";
+import { Button, Layout, Navbar } from "./components";
 
 function App() {
 	return (
@@ -8,7 +8,10 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Layout />}>
-					{/* <Route path="/link" element={<Component />} /> */}
+					<Route
+						path="/button"
+						element={<Button className="text-orange-500">My Button</Button>}
+					/>
 				</Route>
 			</Routes>
 		</div>

@@ -14,14 +14,14 @@ export const Navbar = () => {
 					</Link>
 				</li>
 
-				{/* <li>
+				<li>
 					<Link
-						to="/link"
+						to="/button"
 						className="block px-3 py-2 shadow-md rounded-lg bg-white"
 					>
-						Menu
+						Button
 					</Link>
-				</li> */}
+				</li>
 			</ul>
 		</div>
 	);
